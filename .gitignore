@@ -6,7 +6,7 @@ __pycache__/
 .venv/
 
 # Packaging Files & Folders
-electrum.egg-info/
+pyvutils.egg-info/
 
 # Project Specific Excluded Files & Folders
 design/
