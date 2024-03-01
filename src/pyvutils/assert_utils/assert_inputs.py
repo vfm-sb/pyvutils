@@ -3,6 +3,6 @@ Input Assertions
 """
 
 
-def assert_input(user_input: str) -> None:
-    if not user_input:
+def assert_input(input_string: str) -> None:
+    if not input_string:
         raise ValueError("Missing Input Error") # TODO Use MissingInputError Exception
