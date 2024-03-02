@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyvutils"
-version = "0.1.0"
+version = "0.1.1"
 description = "Custom Utility Functions for Python"
 authors = [{name = "vfm-sb", email = "vfm-sb@proton.me"}]
-requires-python = ">=3.11.6"
+requires-python = ">=3.11.8"
 dependencies = []
 readme = "README.md"
 license = {file = "LICENCE"}
@@ -23,9 +23,6 @@ classifiers = [
   "Natural Language :: English"
 ]
 
-#[project.urls]
-# Homepage = ""
-# Documentation = ""
-# Repository = ""
-# Issues = ""
-# Changelog = ""
+[project.urls]
+Repository = "https://github.com/vfm-sb/pyvutils"
+Changelog = "https://github.com/vfm-sb/pyvutils/blob/main/HISTORY.md"
