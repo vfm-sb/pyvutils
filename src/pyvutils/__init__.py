@@ -14,6 +14,7 @@ from pyvutils.assert_utils import assert_input
 
 # List Utils Direct Imports
 from pyvutils.list_utils import remove_duplicates
+from pyvutils.list_utils import flatten_list
 
 # Parser Utils
 from pyvutils.parser_utils import parse_numeric_value, parse_integer_value, parse_float_value
