@@ -2,6 +2,16 @@
 
 <br>
 
+## 0.1.2 (2024/03/05)
+
+- List Utils >> Processors:
+    - New: `flatten_list()`
+- Validator Utils >> Currency Validators:
+    - `valid_currency_code()`, `valid_iso_alphabetic_code()`, `valid_iso_numeric_code()`
+- Assert Utils >> Currency Asserts:
+    - `assert_currency_code()`, `assert_iso_alphabetic_code()`, `assert_iso_numeric_code()`
+
+
 ## 0.1.1 (2024/03/02)
 
 - Various New Utilities
