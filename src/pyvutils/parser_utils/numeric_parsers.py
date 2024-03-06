@@ -24,4 +24,4 @@ def parse_float_value(input_string: str) -> float:
     try:
         return float(input_string)
     except ValueError as exc:
-        raise ValueError("Invalid Integer Value") from exc # TODO Use InvalidNumericInputError
+        raise ValueError("Invalid Float Value") from exc # TODO Use InvalidNumericInputError

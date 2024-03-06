@@ -15,6 +15,11 @@ from pyvutils.assert_utils import (
     assert_currency_code, assert_iso_alphabetic_code, assert_iso_numeric_code
 )
 
+from pyvutils.converter_utils import (
+    convert_decimal_to_numeric, convert_numeric_string_to_numeric,
+    normalize_numeric_value,
+)
+
 from pyvutils.list_utils import remove_duplicates
 from pyvutils.list_utils import flatten_list
 
