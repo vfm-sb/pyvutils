@@ -2,6 +2,20 @@
 
 <br>
 
+## 0.1.3 (2024/04/06)
+
+- Converter Utils >> Numeric Converters:
+    - `convert_decimal_to_numeric()`
+    - `convert_numeric_string_to_numeric()`
+    - `normalize_numeric_value()`
+- Datetime Utils >> Datetime Timestamps:
+    - `current_year_timestamp()`
+    - `current_month_timestamp()`
+    - `current_date_timestamp()`
+- Validator Utils >> Numeric Validators:
+    - `valid_numeric_value()`
+
+
 ## 0.1.2 (2024/03/05)
 
 - List Utils >> Processors:
