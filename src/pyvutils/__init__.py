@@ -26,6 +26,10 @@ from pyvutils.datetime_utils import (
     current_year_timestamp, current_month_timestamp, current_date_timestamp
 )
 
+from pyvutils.decimal_utils import (
+    decimal_round_down, decimal_round_up
+)
+
 from pyvutils.file_utils import get_file_content, save_file_content
 from pyvutils.file_utils import get_json_file, save_json_file
 

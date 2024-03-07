@@ -14,6 +14,9 @@
 - File Utils >> JSON Operations
     - `get_json_file()`
     - `save_json_file()`
+- Decimal Utils >> Decimal Rounders
+    - `decimal_round_down()`
+    - `decimal_round_up()`
 
 
 ## 0.1.3 (2024/03/06)
