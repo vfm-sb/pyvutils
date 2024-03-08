@@ -14,7 +14,8 @@ from pyvutils import validator_utils
 # Direct Imports
 from pyvutils.assert_utils import assert_input
 from pyvutils.assert_utils import (
-    assert_currency_code, assert_iso_alphabetic_code, assert_iso_numeric_code
+    assert_currency_code,
+    assert_alphabetic_currency_code, assert_numeric_currency_code
 )
 
 from pyvutils.converter_utils import (
@@ -48,6 +49,7 @@ from pyvutils.path_utils import (
 from pyvutils.string_utils import split_by_char, split_by_comma
 
 from pyvutils.validator_utils import (
-    valid_currency_code, valid_iso_alphabetic_code, valid_iso_numeric_code
+    valid_currency_code,
+    valid_alphabetic_currency_code, valid_numeric_currency_code
 )
 from pyvutils.validator_utils import valid_numeric_value
