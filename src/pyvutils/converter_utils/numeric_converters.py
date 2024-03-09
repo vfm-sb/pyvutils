@@ -2,6 +2,9 @@
 # Built-in Modules
 from decimal import Decimal
 
+# Custom Exceptions
+from pyvutils.exceptions.input_exceptions import InvalidNumericInputError
+
 
 def convert_decimal_to_numeric(value: Decimal) -> int | float:
     if value % 1 == 0:
@@ -22,5 +25,5 @@ def normalize_numeric_value(value: int | float | str | Decimal) -> int | float:
     if isinstance(value, Decimal):
         return convert_decimal_to_numeric(value)
     if not isinstance(value, (int, float)):
-        raise ValueError(f"Invalid Numeric Value >> {value}")
+        raise InvalidNumericInputError(f"Invalid Numeric Value >> {value}")
     return value
