@@ -9,7 +9,8 @@ description = "Custom Utility Functions for Python"
 authors = [{name = "vfm-sb", email = "vfm-sb@proton.me"}]
 requires-python = ">=3.11.8"
 dependencies = [
-  "cerrlib==0.1.0"
+  "cerrlib==0.1.0",
+  "pytest==8.1.1"
 ]
 readme = "README.md"
 license = {file = "LICENCE"}
