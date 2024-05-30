@@ -4,7 +4,9 @@ Currency Assertions
 
 # Local Imports
 from pyvutils.validator_utils.currency_validators import (
-    valid_currency_code, valid_alphabetic_currency_code, valid_numeric_currency_code
+    valid_currency_code,
+    valid_alphabetic_currency_code,
+    valid_numeric_currency_code
 )
 
 # Custom Exceptions
