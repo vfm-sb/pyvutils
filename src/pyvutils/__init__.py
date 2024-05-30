@@ -1,6 +1,6 @@
 
 # Category Imports
-from pyvutils import assert_utils
+from pyvutils import asserts
 from pyvutils import converter_utils
 from pyvutils import datetime_utils
 from pyvutils import decimal_utils
@@ -12,10 +12,13 @@ from pyvutils import string_utils
 from pyvutils import validator_utils
 
 # Direct Imports
-from pyvutils.assert_utils import assert_input
-from pyvutils.assert_utils import (
+from pyvutils.asserts import (
+    assert_input
+)
+from pyvutils.asserts import (
     assert_currency_code,
-    assert_alphabetic_currency_code, assert_numeric_currency_code
+    assert_alphabetic_currency_code,
+    assert_numeric_currency_code
 )
 
 from pyvutils.converter_utils import (
