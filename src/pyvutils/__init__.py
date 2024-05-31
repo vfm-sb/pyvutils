@@ -5,7 +5,7 @@ from pyvutils import converters
 from pyvutils import dtutils
 from pyvutils import decimalkit
 from pyvutils import filekit
-from pyvutils import list_utils
+from pyvutils import listutils
 from pyvutils import parser_utils
 from pyvutils import pathkit
 from pyvutils import projectkit
@@ -39,7 +39,7 @@ from pyvutils.decimalkit import (
     round_up
 )
 
-from pyvutils.list_utils import (
+from pyvutils.listutils import (
     flatten,
     remove_duplicates
 )

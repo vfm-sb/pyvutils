@@ -1,6 +1,6 @@
 """List Utils Imports"""
 
-from .list_processors import (
+from .processors import (
     flatten,
     remove_duplicates
 )
