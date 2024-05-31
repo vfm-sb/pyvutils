@@ -3,7 +3,7 @@
 from pyvutils import asserts
 from pyvutils import converters
 from pyvutils import dtutils
-from pyvutils import decimal_utils
+from pyvutils import decimalkit
 from pyvutils import file_utils
 from pyvutils import list_utils
 from pyvutils import parser_utils
@@ -33,8 +33,9 @@ from pyvutils.dtutils import (
     current_date
 )
 
-from pyvutils.decimal_utils import (
-    decimal_round_down, decimal_round_up
+from pyvutils.decimalkit import (
+    round_down,
+    round_up
 )
 
 from pyvutils.file_utils import get_file_content, save_file_content
