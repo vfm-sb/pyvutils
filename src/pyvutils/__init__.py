@@ -2,7 +2,7 @@
 # Category Imports
 from pyvutils import asserts
 from pyvutils import converters
-from pyvutils import datetime_utils
+from pyvutils import dtutils
 from pyvutils import decimal_utils
 from pyvutils import file_utils
 from pyvutils import list_utils
@@ -27,8 +27,10 @@ from pyvutils.converters import (
     normalize_numeric
 )
 
-from pyvutils.datetime_utils import (
-    current_year_timestamp, current_month_timestamp, current_date_timestamp
+from pyvutils.dtutils import (
+    current_year,
+    current_month,
+    current_date
 )
 
 from pyvutils.decimal_utils import (
