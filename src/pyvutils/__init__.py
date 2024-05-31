@@ -39,9 +39,6 @@ from pyvutils.decimalkit import (
     round_up
 )
 
-from pyvutils.file_utils import get_file_content, save_file_content
-from pyvutils.file_utils import get_json_file, save_json_file
-
 from pyvutils.list_utils import remove_duplicates
 from pyvutils.list_utils import flatten_list
 
@@ -49,6 +46,12 @@ from pyvutils.parser_utils import (
     parse_numeric_value, parse_integer_value, parse_float_value
 )
 
+from pyvutils.projectkit import (
+    read_project_file,
+    write_project_file,
+    get_project_json,
+    save_project_json
+)
 from pyvutils.projectkit import (
     get_project_path,
     get_project_relative_path,
