@@ -28,9 +28,9 @@ from pyvutils.converters import (
 )
 
 from pyvutils.dtutils import (
-    current_year,
-    current_month,
-    current_date
+    current_year_stamp,
+    current_month_stamp,
+    current_date_stamp
 )
 
 from pyvutils.decimalkit import (
