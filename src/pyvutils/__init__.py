@@ -22,8 +22,9 @@ from pyvutils.asserts import (
 )
 
 from pyvutils.converter_utils import (
-    convert_decimal_to_numeric, convert_numeric_string_to_numeric,
-    normalize_numeric_value
+    decimal_to_numeric,
+    numeric_string_to_numeric,
+    normalize_numeric
 )
 
 from pyvutils.datetime_utils import (
