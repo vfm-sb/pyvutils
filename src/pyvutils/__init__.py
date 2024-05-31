@@ -7,7 +7,8 @@ from pyvutils import decimalkit
 from pyvutils import file_utils
 from pyvutils import list_utils
 from pyvutils import parser_utils
-from pyvutils import path_utils
+from pyvutils import pathkit
+from pyvutils import projectkit
 from pyvutils import string_utils
 from pyvutils import validator_utils
 
