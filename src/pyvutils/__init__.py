@@ -9,7 +9,7 @@ from pyvutils import listutils
 from pyvutils import parsers
 from pyvutils import pathkit
 from pyvutils import projectkit
-from pyvutils import string_utils
+from pyvutils import strutils
 from pyvutils import validator_utils
 
 # Direct Imports
@@ -62,11 +62,15 @@ from pyvutils.projectkit import (
     get_project_relative_filepath
 )
 
-from pyvutils.string_utils import (
+from pyvutils.strutils import (
     split_by_char,
-    split_by_comma, split_by_colon, split_by_semicolon
+    split_by_comma,
+    split_by_colon,
+    split_by_semicolon
 )
-from pyvutils.string_utils import custom_title
+from pyvutils.strutils import (
+    custom_title
+)
 
 from pyvutils.validator_utils import (
     valid_currency_code,
