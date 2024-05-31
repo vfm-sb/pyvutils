@@ -6,7 +6,7 @@ from pyvutils import dtutils
 from pyvutils import decimalkit
 from pyvutils import filekit
 from pyvutils import listutils
-from pyvutils import parser_utils
+from pyvutils import parsers
 from pyvutils import pathkit
 from pyvutils import projectkit
 from pyvutils import string_utils
@@ -44,8 +44,10 @@ from pyvutils.listutils import (
     remove_duplicates
 )
 
-from pyvutils.parser_utils import (
-    parse_numeric_value, parse_integer_value, parse_float_value
+from pyvutils.parsers import (
+    parse_numeric,
+    parse_integer,
+    parse_float
 )
 
 from pyvutils.projectkit import (
