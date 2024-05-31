@@ -16,7 +16,7 @@ def decimal_to_numeric(value: Decimal) -> int | float:
     return float(value)
 
 
-def numeric_string_to_numeric(value: str) -> int | float:
+def numeric_str_to_numeric(value: str) -> int | float:
     if not isinstance(value, str):
         raise InvalidStringValueError(value=value)
     try:
@@ -30,7 +30,7 @@ def numeric_string_to_numeric(value: str) -> int | float:
 
 def normalize_numeric(value: int | float | str | Decimal) -> int | float:
     if isinstance(value, str):
-        return numeric_string_to_numeric(value)
+        return numeric_str_to_numeric(value)
     if isinstance(value, Decimal):
         return decimal_to_numeric(value)
     if not isinstance(value, (int, float)):
