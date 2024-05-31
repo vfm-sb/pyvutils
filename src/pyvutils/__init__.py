@@ -39,8 +39,10 @@ from pyvutils.decimalkit import (
     round_up
 )
 
-from pyvutils.list_utils import remove_duplicates
-from pyvutils.list_utils import flatten_list
+from pyvutils.list_utils import (
+    flatten,
+    remove_duplicates
+)
 
 from pyvutils.parser_utils import (
     parse_numeric_value, parse_integer_value, parse_float_value
