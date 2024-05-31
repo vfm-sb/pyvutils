@@ -1,7 +1,7 @@
 
 # Category Imports
 from pyvutils import asserts
-from pyvutils import converter_utils
+from pyvutils import converters
 from pyvutils import datetime_utils
 from pyvutils import decimal_utils
 from pyvutils import file_utils
@@ -21,7 +21,7 @@ from pyvutils.asserts import (
     assert_numeric_currency_code
 )
 
-from pyvutils.converter_utils import (
+from pyvutils.converters import (
     decimal_to_numeric,
     numeric_string_to_numeric,
     normalize_numeric
