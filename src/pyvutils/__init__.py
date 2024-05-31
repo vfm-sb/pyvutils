@@ -4,7 +4,7 @@ from pyvutils import asserts
 from pyvutils import converters
 from pyvutils import dtutils
 from pyvutils import decimalkit
-from pyvutils import file_utils
+from pyvutils import filekit
 from pyvutils import list_utils
 from pyvutils import parser_utils
 from pyvutils import pathkit
