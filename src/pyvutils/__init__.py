@@ -48,7 +48,7 @@ from pyvutils.parser_utils import (
     parse_numeric_value, parse_integer_value, parse_float_value
 )
 
-from pyvutils.path_utils import (
+from pyvutils.projectkit import (
     get_project_path,
     get_project_relative_path,
     get_project_relative_filepath
