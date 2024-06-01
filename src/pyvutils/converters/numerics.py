@@ -8,7 +8,7 @@ from pyvutils.exceptions import InvalidDecimalValueError
 from pyvutils.exceptions import InvalidStringValueError
 
 
-def convert_decimal_to_numeric(value: Decimal) -> int | float:
+def decimal_to_numeric(value: Decimal) -> int | float:
     if not isinstance(value, Decimal):
         raise InvalidDecimalValueError(value=value)
     if value % 1 == 0:
@@ -16,7 +16,7 @@ def convert_decimal_to_numeric(value: Decimal) -> int | float:
     return float(value)
 
 
-def convert_numeric_string_to_numeric(value: str) -> int | float:
+def numeric_str_to_numeric(value: str) -> int | float:
     if not isinstance(value, str):
         raise InvalidStringValueError(value=value)
     try:
@@ -28,11 +28,11 @@ def convert_numeric_string_to_numeric(value: str) -> int | float:
             raise InvalidNumericValueError(f"Invalid Numeric String: {value}") from exc
 
 
-def normalize_numeric_value(value: int | float | str | Decimal) -> int | float:
+def normalize_numeric(value: int | float | str | Decimal) -> int | float:
     if isinstance(value, str):
-        return convert_numeric_string_to_numeric(value=value)
+        return numeric_str_to_numeric(value)
     if isinstance(value, Decimal):
-        return convert_decimal_to_numeric(value)
+        return decimal_to_numeric(value)
     if not isinstance(value, (int, float)):
         raise InvalidNumericValueError(value=value)
     return value
