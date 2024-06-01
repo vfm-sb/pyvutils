@@ -5,5 +5,3 @@ from cerrlib import (
     InvalidDecimalValueError,
     InvalidStringValueError
 )
-
-from .currency_exceptions import InvalidCurrencyCodeError

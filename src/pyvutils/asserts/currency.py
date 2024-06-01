@@ -3,14 +3,14 @@ Currency Assertions
 """
 
 # Local Imports
-from pyvutils.validator_utils.currency_validators import (
+from pyvutils.validators.currency import (
     valid_currency_code,
     valid_alphabetic_currency_code,
     valid_numeric_currency_code
 )
 
 # Custom Exceptions
-from pyvutils.exceptions import InvalidCurrencyCodeError
+from pyvutils.exceptions.currency_exceptions import InvalidCurrencyCodeError
 
 
 def assert_currency_code(code: str | int) -> None:
