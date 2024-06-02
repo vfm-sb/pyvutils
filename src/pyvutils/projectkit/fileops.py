@@ -15,14 +15,14 @@ def write_project_file(filename: str, relative_path: str, content: str) -> None:
         file.write(content)
 
 
-def get_project_json(filename: str, relative_path: str) -> dict:
+def get_json(filename: str, relative_path: str) -> dict:
     if not filename.endswith(".json"):
         raise ValueError("Invalid JSON Filename")
     file_content = read_project_file(filename, relative_path)
     return json.loads(file_content)
 
 
-def save_project_json(filename: str, relative_path: str, data: dict) -> None:
+def save_json(filename: str, relative_path: str, data: dict) -> None:
     if not filename.endswith(".json"):
         raise ValueError("Invalid JSON Filename")
     json_string = json.dumps(data, indent=4)

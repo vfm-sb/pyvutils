@@ -2,8 +2,8 @@
 from .fileops import (
     read_project_file,
     write_project_file,
-    get_project_json,
-    save_project_json
+    get_json,
+    save_json
 )
 
 from .pathworks import (

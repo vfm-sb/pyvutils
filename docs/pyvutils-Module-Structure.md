@@ -39,8 +39,8 @@ pyvutils
 │  ├─ fileops
 │  │  ├─ read_project_file
 │  │  ├─ write_project_file
-│  │  ├─ get_project_json
-│  │  └─ save_project_json
+│  │  ├─ get_json
+│  │  └─ save_json
 │  └─ pathworks
 │     ├─ get_project_path
 │     ├─ get_project_relative_path
@@ -54,11 +54,11 @@ pyvutils
 │  └─ transformers
 │     └─ custom_title 
 └─ validators
-│  ├─ currency
-│  │  ├─ valid_currency_code
-│  │  ├─ valid_alphabetic_currency_code
-│  │  └─ valid_numeric_currency_code
-│  └─ numerics
+   ├─ currency
+   │  ├─ valid_currency_code
+   │  ├─ valid_alphabetic_currency_code
+   │  └─ valid_numeric_currency_code
+   └─ numerics
       └─ valid_numeric
 
 ```
