@@ -7,7 +7,7 @@ pyvutils
 │  │  ├─ assert_currency_code
 │  │  ├─ assert_alphabetic_currency_code
 │  │  ├─ assert_numeric_currency_code
-│  └─ input
+│  └─ inputs
 │     └─ assert_input
 ├─ checkers
 ├─ converters

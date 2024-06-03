@@ -1,5 +1,7 @@
 
-from .input import assert_input
+from .inputs import (
+    assert_input
+)
 
 from .currency import (
     assert_currency_code,
