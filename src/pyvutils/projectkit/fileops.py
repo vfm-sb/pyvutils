@@ -5,12 +5,16 @@ from .pathworks import get_project_relative_filepath
 
 def read_project_file(filename: str, relative_path: str) -> str:
     file_path = get_project_relative_filepath(filename, relative_path)
+    if file_path is None:
+        raise FileNotFoundError
     with open(file_path, "r", encoding="UTF-8") as file:
         return file.read()
 
 
 def write_project_file(filename: str, relative_path: str, content: str) -> None:
     file_path = get_project_relative_filepath(filename, relative_path)
+    if file_path is None:
+        raise FileNotFoundError
     with open(file_path, "w", encoding="UTF-8") as file:
         file.write(content)
 
