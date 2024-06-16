@@ -22,6 +22,10 @@ from pyvutils.asserts import (
     assert_numeric_currency_code
 )
 
+from pyvutils.checkers import (
+    is_nested_list
+)
+
 from pyvutils.converters import (
     decimal_to_numeric,
     numeric_str_to_numeric,
