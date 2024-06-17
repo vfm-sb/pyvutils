@@ -2,6 +2,18 @@
 
 <br>
 
+## 0.1.6.1 (2024/06/17)
+
+- Validator Utils >> File Validators
+    - `valid_filename()`
+
+
+## 0.1.6 (2024/06/16)
+
+- Checker Utils >> List Checkers
+    - `is_nested_list()`
+
+
 ## 0.1.4 (2024/03/07)
 
 - Path Utils >> Project Helpers
