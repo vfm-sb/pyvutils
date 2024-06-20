@@ -7,6 +7,9 @@
 - Validator Utils >> File Validators
     - `valid_filename()`
 
+- Assert Utils >> File Asserts
+    - `assert_filename()`
+
 
 ## 0.1.6 (2024/06/16)
 

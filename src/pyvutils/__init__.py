@@ -18,6 +18,9 @@ from pyvutils.asserts import (
     assert_input
 )
 from pyvutils.asserts import (
+    assert_filename
+)
+from pyvutils.asserts import (
     assert_currency_code,
     assert_alphabetic_currency_code,
     assert_numeric_currency_code
